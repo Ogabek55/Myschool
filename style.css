@@ -1,47 +1,191 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
 }
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-image: url(https://i.pinimg.com/originals/60/04/30/600430c1d22c731b94cf4e7dae6b398a.gif);
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(tree-736885_1280.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 .container {
-  width: 100%;
-  height: 100vh;
-  background-color: rgb(0, 0, 0, 0.4);
+  max-width: 1250px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.header {
   display: flex;
+  justify-content: space-between;
+  color: white;
   align-items: center;
+  text-align: center;
+}
+.header__div1 {
+  font-size: 35px;
+  color: blue;
+}
+.header__div2 :hover {
+  color: #ff7200;
+}
+.header__div3 :hover {
+  color: #ff7200;
+}
+.header__div4 :hover {
+  color: #ff7200;
+}
+.header__div5 :hover {
+  color: #ff7200;
+}
+.header__div8 :hover {
+  color: #ff7200;
+}
+.header__div7 {
+  border: 1px solid;
+  gap: none;
+}
+.header__divtext {
+  padding: 10px;
+
+  border: none;
+}
+.header__divbut {
+  padding: 10px;
+  border: none;
+}
+.icon {
+  display: none;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.main1 {
+  margin-top: 150px;
+  color: white;
+  font-size: 20px;
+  gap: 50px;
+}
+.main2 {
+  margin-top: 150px;
+  color: white;
+}
+.main1__h1yellov {
+  color: #ff7200;
+  margin-top: 20px;
+}
+.main1__h2 {
+  margin-top: 20px;
+}
+.main1__p {
+  width: 500px;
+  margin-top: 20px;
+  font-family: "Times New Roman";
+}
+.main1__button {
+  width: 100px;
+  margin-top: 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 50px;
+  background-color: #ff7200;
+  box-shadow: 0px 5px 5px 0px #ff7200;
+}
+.loginForm {
+  max-width: 500px;
+}
+form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.inputs {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.main2__button {
+  padding: 10px 20px;
+  background-color: #ff7200;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
   justify-content: center;
 }
-.bacround-clip {
-  position: absolute;
-  right: o;
-  bottom: 0;
-  z-index: -1;
-}
 
-h1 {
-  align-items: center;
-  color: white;
+.error-message {
+  color: red;
+  margin-top: 10px;
 }
-
-button {
-  color: white;
-  background: scroll;
-  background-color: blue;
-  padding: 15px;
+.loginForm__div {
+  display: flex;
+  justify-content: center;
 }
-@media screen and (max-width: 350px) {
-  body {
+@media screen and (max-width: 1000px) {
+  .header__div4 {
+    display: none;
+  }
+}
+@media screen and (max-width: 895px) {
+  .header__div3 {
+    display: none;
+  }
+  .main1 {
+  }
+}
+@media screen and (max-width: 888px) {
+  .header__div3 {
+    display: none;
+  }
+  .main1 {
+  }
+  .main1__p {
     width: 100%;
+  }
+  .main {
+    display: block;
+  }
+}
+@media screen and (max-width: 720px) {
+  .header__div5 {
+    display: none;
+  }
+}
+@media screen and (max-width: 598px) {
+  .header__div2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 532px) {
+  .header__divtext,
+  .header__divbut,
+  .header__div7 {
+    display: none;
+  }
+  .icon {
+    display: block;
   }
 }

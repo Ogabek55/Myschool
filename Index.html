@@ -3,23 +3,106 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My school</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="container">
-      <video autoplay loop muted plays-inline class="bacround-clip">
-        <source
-          src="https://i.pinimg.com/originals/60/04/30/600430c1d22c731b94cf4e7dae6b398a.gif"
-          type="autoplay"
-        />
-      </video>
-      <div class="home__button">
-        <h1>Mening maktabim ga Xush kelibsiz</h1>
-        <div>
-          <button>Boshlash</button>
+      <div class="header">
+        <div class="header__div1">
+          <a href="#"><h2 class="header__div1">MySchool</h2></a>
+        </div>
+        <div class="header__div2">
+          <a href="./Index.html#"><h3 class="header__div2">HOME</h3></a>
+        </div>
+        <div class="header__div3">
+          <a href="#"><h3 class="header__div3">ABOUT</h3></a>
+        </div>
+        <div class="header__div4">
+          <a href="#"><h3 class="header__div4">LOCATION</h3></a>
+        </div>
+
+        <div class="header__div5">
+          <a href="#"><h3 class="header__div5">CONTACT</h3></a>
+        </div>
+        <div class="header__div7">
+          <input
+            class="header__divtext"
+            type="search"
+            name=""
+            placeholder="Enter text"
+          /><button class="header__divbut">Search</button>
+        </div>
+        <div class="header__div8">
+          <a href="./Index.html#"><h3 class="header__div8">EXIT</h3></a>
+        </div>
+        <div class="icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div class="main">
+        <div class="main1">
+          <h1 class="main1__h1">Welcome to</h1>
+          <h1 class="main1__h1">
+            <span style="color: blue">MySchool</span> and Myteachers
+          </h1>
+          <h1 class="main1__h1yellov"></h1>
+          <h2 class="main1__h2">Site</h2>
+          <p class="main1__p">
+            You use this site to keep up with news and other things from your
+            school. Access to this electronic site is possible only with a
+            password, and this password is obtained from the school
+            administrator
+          </p>
+          <a href="#loginForm"> <button class="main1__button">Use</button></a>
+        </div>
+        <div class="main2">
+          <form class="loginForm" id="loginForm">
+            <div class="loginForm__div">
+              <h2 class="loginForm__registration">
+                Register in <span style="color: blue">MySchool</span>
+              </h2>
+            </div>
+
+            <label for="username">Username:</label>
+            <input
+              class="inputs"
+              type="text"
+              id="username"
+              name="username"
+              required
+            />
+            <label for="email">Email:</label>
+            <input
+              class="inputs"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+            <label for="password">Password:</label>
+            <input
+              class="inputs"
+              type="password"
+              id="password"
+              name="password"
+              required
+            />
+            <div class="loginForm__div">
+              <button class="main2__button" type="submit">Login</button>
+              <p id="errorMessage" class="error-message"></p>
+            </div>
+          </form>
         </div>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
