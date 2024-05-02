@@ -7,8 +7,7 @@ document
     var password = document.getElementById("password").value;
     if (password === "12345") {
       // Bu erda Instagram sahifasiga o'tish kerak bo'lgan qismi boshqarishni o'rnating
-      window.location.href =
-        "https://www.instagram.com/direct/t/17844220590192905/";
+      window.location.href = "https://t.me/kompyuter263";
     } else {
       document.getElementById("errorMessage").textContent = "Parol noto'g'ri";
     }
