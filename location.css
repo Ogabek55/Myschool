@@ -67,85 +67,37 @@ body {
   display: none;
 }
 .main {
-  display: flex;
-  justify-content: space-between;
-}
-.main1 {
-  margin-top: 150px;
-  color: white;
-  font-size: 20px;
-  gap: 50px;
-}
-.main2 {
-  margin-top: 150px;
-  color: white;
-}
-.main1__h1yellov {
-  color: #ff7200;
-  margin-top: 20px;
-}
-.main1__h2 {
-  margin-top: 20px;
-}
-.main1__p {
-  color: #ccc;
-  width: 500px;
-  margin-top: 20px;
-  font-family: Georgia;
-}
-.main1__button {
-  width: 150px;
   margin-top: 50px;
+}
+.main__location {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.mainh1,
+.mainh2 {
+  color: #ff7200;
+}
+.main__div {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  color: white;
   font-size: 20px;
-  border: none;
-  border-radius: 20px;
-  padding: 10px;
-  margin-left: 50px;
-  background-color: #ff7200;
-  box-shadow: 0px 5px 5px 0px #ff7200;
+  margin-top: 50px;
 }
-.loginForm {
-  max-width: 500px;
-}
-form {
-  border: 1px solid #ccc;
-  padding: 20px;
-  border-radius: 5px;
+.main__div1 {
+  border: 1px solid;
+  border-radius: 15px;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  text-transform: unset;
+  text-overflow: clip;
+  background: transparent;
+  color: white;
 }
 
-label {
-  display: block;
-  margin-bottom: 10px;
-}
-
-.inputs {
-  width: calc(100% - 20px);
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
-
-.main2__button {
-  padding: 10px 20px;
-  background-color: #ff7200;
-  color: #fff;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-}
-
-.error-message {
-  color: red;
-  margin-top: 10px;
-  display: block;
-}
-.loginForm__div {
-  display: flex;
-  justify-content: center;
-}
 @media screen and (max-width: 1000px) {
   .header__div4 {
     display: none;
@@ -174,6 +126,24 @@ label {
 @media screen and (max-width: 720px) {
   .header__div5 {
     display: none;
+  }
+  .main__div {
+    width: 100%;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .main__div {
+    width: 100%;
+    display: block;
+    gap: 50px;
+  }
+  .main__div1 {
+    margin-top: 50px;
+  }
+  .div {
+    display: flex;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 598px) {

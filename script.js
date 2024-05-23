@@ -6,9 +6,9 @@ document
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
     if (password === "12345") {
-      // Bu erda Instagram sahifasiga o'tish kerak bo'lgan qismi boshqarishni o'rnating
-      window.location.href = "https://t.me/kompyuter263";
+      window.location.href = "http://127.0.0.1:5501/Kundalik.com/index.html";
     } else {
-      document.getElementById("errorMessage").textContent = "Parol noto'g'ri";
+      document.getElementById("errorMessage").textContent =
+        "Iltimos parolni qayta kiriting!";
     }
   });
