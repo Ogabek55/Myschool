@@ -1,0 +1,252 @@
+body {
+  background-color: whitesmoke;
+  container: border;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  font-size: 20px;
+}
+.Tashkilot {
+  text-decoration: none;
+  color: black;
+}
+
+.Imkoniyatlar {
+  text-decoration: none;
+  color: black;
+}
+.Hamkorlarga {
+  text-decoration: none;
+  color: black;
+}
+
+.Yordam {
+  text-decoration: none;
+  color: black;
+}
+
+.Ozb {
+  text-decoration: none;
+  color: rgb(83, 83, 251);
+  border: none;
+  padding: 10px;
+}
+.Kirish {
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+}
+.Kirish:hover {
+  background-color: rgb(19, 13, 120);
+  border-color: rgb(19, 13, 120);
+
+  color: white;
+}
+.New-work {
+  background-color: green;
+  color: white;
+  padding: 6px;
+  border: none;
+  border: none;
+}
+
+/* section */
+.section {
+  display: flex;
+  justify-content: end;
+  width: 1500px;
+  height: 60vh;
+}
+.malumot {
+  border: 3px solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  position: absolute;
+  top: 420px;
+  left: 270px;
+  text-decoration: none;
+  background-color: rgb(215, 211, 211);
+  border: none;
+  color: rgb(112, 111, 111);
+}
+.Text {
+  text-decoration: none;
+  color: black;
+}
+.Future {
+  background-color: rgb(50, 50, 50);
+  height: 31.5vh;
+}
+.New-text {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  font-size: 18px;
+}
+.future-text-name-head {
+  text-decoration: none;
+  color: white;
+}
+.future-text-name {
+  text-decoration: none;
+  color: rgb(136, 135, 135);
+}
+.future-text-name:hover {
+  color: green;
+}
+.future-text-name-green {
+  text-decoration: none;
+  color: green;
+}
+.future-text-name-green:hover {
+  text-decoration: dotted;
+}
+.future-icon {
+  color: white;
+}
+.facebook {
+  border: 1px solid;
+  padding: 3px;
+  border-radius: 3px;
+  background-color: white;
+  color: black;
+}
+.instagram {
+  border: 1px solid;
+  padding: 3px;
+  border-radius: 3px;
+  background-color: white;
+  color: black;
+}
+.plane {
+  border: 1px solid;
+  padding: 3px;
+  border-radius: 3px;
+  background-color: white;
+  color: black;
+}
+.youtube {
+  border: 1px solid;
+  padding: 3px;
+  border-radius: 3px;
+  background-color: white;
+  color: black;
+}
+.furure-send {
+  background-color: green;
+  padding: 10px;
+  border: none;
+}
+.furure-send:hover {
+  background-color: rgb(8, 69, 8);
+  padding: 10px;
+  border: none;
+  color: white;
+}
+.future-center {
+  display: flex;
+  justify-content: center;
+  gap: 750px;
+}
+.future-future {
+  background-color: black;
+  height: 10vh;
+}
+.future-admin {
+  color: rgb(106, 106, 106);
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+@media screen and (max-width: 1181px) {
+  body {
+    width: 100%;
+  }
+  .section {
+    width: 100%;
+  }
+
+  .malumot {
+    display: none;
+  }
+
+  .Tashkilot {
+    display: none;
+  }
+  .Imkoniyatlar {
+    display: none;
+  }
+  .Hamkorlarga {
+    display: none;
+  }
+  .Yordam {
+    display: none;
+  }
+  .New-work {
+    display: none;
+  }
+  .New-text {
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  .furure-send1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 861px) {
+  body {
+    width: 100%;
+  }
+
+  .New-text {
+    display: block;
+  }
+}
+@media screen and (max-width: 390px) {
+  body {
+    width: 100%;
+  }
+  .Ozb {
+    display: none;
+  }
+  .New-text {
+    display: block;
+  }
+}
+@media screen and (max-width: 375px) {
+  body {
+    width: 100%;
+  }
+  .furure-send1 {
+    width: 100%;
+  }
+  .section {
+    width: 100%;
+  }
+  .Kirish {
+    font-size: 06px;
+  }
+}
+@media screen and (max-width: 250px) {
+  body {
+    width: 100%;
+  }
+  .furure-send1 {
+    width: 100%;
+  }
+  .section {
+    width: 1000%;
+  }
+  .Kirish {
+    font-size: 06px;
+  }
+}
