@@ -34,6 +34,14 @@ body {
 .header__div1 {
   font-size: 35px;
   color: blue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.MySchool {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.header__div8 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .header__div2 :hover {
   color: #ff7200;
@@ -84,6 +92,7 @@ body {
   color: #ff7200;
   margin-top: 20px;
 }
+
 .main1__h2 {
   margin-top: 20px;
 }
@@ -91,7 +100,7 @@ body {
   color: #ccc;
   width: 500px;
   margin-top: 20px;
-  font-family: Georgia;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .main1__button {
   width: 150px;
